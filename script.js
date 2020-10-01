@@ -17,7 +17,7 @@
       if (minutes < 10) {
         minutes = "0" + minutes;
       } 
-      var curentTime = hours + ":" + minutes + ":" + seconds + " " + meridiem;
+      var curentTime = hours + ":" + minutes + ":" + seconds + " " +meridiem;
     
       document.getElementById('DigitalClock').innerText = curentTime;
       setTimeout(displayTime, 1000);
